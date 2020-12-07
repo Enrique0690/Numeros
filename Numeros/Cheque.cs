@@ -20,7 +20,7 @@ namespace Numeros
         private void button1_Click(object sender, EventArgs e)
         {
             int num = Int32.Parse(this.txtcan.Text);
-            this.txtResultado.Text = Numeros.NumerosLetras.getCentenas(num);
+            this.txtResultado.Text = Numeros.NumerosLetras.getmillar(num);
         }
     }
 }

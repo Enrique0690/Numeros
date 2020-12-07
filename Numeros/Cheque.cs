@@ -19,7 +19,8 @@ namespace Numeros
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Numeros.NumerosLetras.testUnidades();
+            int num = Int32.Parse(this.txtcan.Text);
+            this.txtResultado.Text = Numeros.NumerosLetras.getCentenas(num);
         }
     }
 }
